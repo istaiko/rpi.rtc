@@ -8,10 +8,10 @@ Simple Python module to deal with DS1302 RTC on Raspberry Pi
 | Chip        | Rpi pin       |
 | ----------- |:-------------:|
 | VCC         | 3.3v pin      |
-| GND         | GND pin       |
-| CLK         | pin 11        |
-| DATA        | pin 13        |
-| CE (RST)    | pin 15        |
+| GND         | GND 39 pin    |
+| CLK         | pin 37        |
+| DATA        | pin 35        |
+| CE (RST)    | pin 33        |
 
 ### Setup
 
