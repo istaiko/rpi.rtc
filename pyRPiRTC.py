@@ -7,7 +7,7 @@ class DS1302:
     # 5us
     CLK_DELAY = 5E-6
 
-    def __init__(self, clk_pin=11, data_pin=13, ce_pin=15):
+    def __init__(self, clk_pin=37, data_pin=35, ce_pin=33):
         # init GPIO
         # no warnings
         GPIO.setwarnings(False)
